@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: rgb(92, 91, 91);
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .tooltip p{
+            text-align: center;
+            font-size: 20px;
+            padding: 15px;
+            margin: 3px;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 3px;
+            visibility: hidden;
+        }
+
+        .tooltip:hover p{
+            visibility: visible;
+        }
+        
+        form{
+            margin-top: 130px;
+            margin-left: 250px;
+        }
+
+        label{
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 5px;
+            margin: 8px 200px;
+        }
+
+        input[type=text]{
+            width: 400px;
+            padding: 10px 20px;
+            margin: 8px 200px;
+            display: inline-block;
+            border: 1px solid rgb(26, 25, 25);
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input:focus {
+            width: 400px;
+            padding: 10px 20px;
+            margin: 8px 200px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        button{
+            margin: 8px 200px;
+            padding: 10px 20px;
+            color: rgb(26, 25, 25);
+            border: 2px solid rgb(26, 25, 25);
+            border-radius: 5px;
+            font-weight: bolder;
+            font-size: 12px;
+        }
+
+        button:hover{
+            margin: 8px 200px;
+            padding: 10px 20px;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+
+        
+
+        footer{
+            background-color: gray;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 210px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo" id="logo" style="height: 30px; width: 50px; float: left; margin-top: 0;">
+        <h2>Himanshu Sharma</h2>
+    </header>
+    <hr>
+
+    <div class="tooltip">
+        <p>This is a login page! Enter Username and Password</p>
+    </div>
+
+    <div class="Container">
+        <form>
+            <label for="username">User Name</label><br>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <br><br>    
+            <label for="password">Password</label><br>
+            <input type="text"  name="password" placeholder="Password" required>
+            <br>
+            <a href="index.html">
+                <button type="button">Sign In</button>
+            </a>
+        </form>
+    </div>
+
+    <footer>
+        &copy;Jujutsu Kaisen
+    </footer>
+</body>
+</html>

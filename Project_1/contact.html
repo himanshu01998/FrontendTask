@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(92, 91, 91);
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            background-color: gray;
+            border-radius: 5px;
+            padding: 10px;
+            height: 50px;
+        }
+
+        ul {
+            padding: 5px;
+            margin-left: 750px;
+        }
+
+        li {
+            padding-left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            display: inline;
+        }
+
+        a {
+            color: gold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: ghostwhite;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+        }
+
+        form{
+            padding: 30px;
+        }
+
+        label{
+            color: white;
+            padding-left: 50px;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 5px;
+            margin: 8px;
+        }
+
+        input[type=text]{
+            width: 400px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=text]:focus {
+            width: 400px;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=tel]{
+            width: 400px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=tel]:focus {
+            width: 400px;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=email]{
+            width: 1060px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=email]:focus{
+            width: 1060px;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]{
+            margin-left: 50px;
+            width: 60px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]:hover{
+            width: 60px;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=reset]{
+            width: 60px;
+            padding: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        input[type=reset]:hover{
+            width: 60px;
+            padding: 10px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        
+        textarea{
+            margin-left: 50px;
+            margin-top: 5px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+
+        textarea:focus{
+            margin-left: 50px;
+            margin-top: 5px;
+            display: inline-block;
+            color: white;
+            background-color: rgb(26, 25, 25);
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+        
+        footer{
+            background-color: gray;
+            padding: 10px;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo" id="logo" style="height: 30px; width: 50px; float: left; margin-top: 0;">
+        <h2>Himanshu Sharma</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="reels.html">Reels</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact Us</a>
+            </li>
+
+            <li>
+                <a href="about.html">About Us</a>
+            </li>
+
+            <li>
+                <a href="login.html">Log Out</a>
+            </li>
+        </ul>
+    </nav>
+
+    <form>
+        <label for="name">Name</label>
+        <input type="text" name="username" placeholder="Eg. John Don" required>
+
+        <label for="Mobile" style="padding-left: 180px;">Mobile</label>
+        <input type="tel"  name="Mobile" placeholder="Eg. 8652465xxx" required>
+        
+        <br> <br>
+        <label for="address">Email</label>
+        <input type="email" name="email" placeholder="Eg. Johndon@gmail.com" required>
+
+        <br> <br>
+        <label for="address">Address</label> <br>
+        <textarea name="address" id="address" cols="139" rows="5" required></textarea>
+
+        <br> <br>
+        <label for="query">State Your Problem Here: </label> <br>
+        <textarea name="query" id="query" cols="139" rows="8" required></textarea>
+
+        <br> <br>
+        <input type="submit" id="submit" value="Submit">
+        <input type="reset" id="reset" value="Reset">
+
+    </form>
+
+    <footer>
+        &copy;Jujutsu Kaisen
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Navbar starting -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <a class="navbar-brand  mx-3 px-3" href="index.html">
+                        <img src="Images/Logo.png" alt="" width="45" height="28">
+                    </a>
+
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                    </li>
+
+                    <div class="dropdown  mx-3">
+                        <button class="btn btn-secondary dropdown-toggle dropdown-btn" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item text-white" href="category.html">Fashion</a></li>
+                            <li><a class="dropdown-item text-white" href="category.html">Mobiles</a></li>
+                            <li><a class="dropdown-item text-white" href="category.html">Electronics</a></li>
+                            <li><a class="dropdown-item text-white" href="category.html">Home Decor</a></li>
+                            <li><a class="dropdown-item text-white" href="category.html">Books, Toys & More</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link active" aria-current="page" href="login.html">Account</a>
+                    </li>
+
+                    <li class="nav-item  mx-3">
+                        <a class="nav-link active" aria-current="page" href="cart.html">
+                            <img src="Images/cart.png" height="24" width="30" alt="">
+                        </a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" action="search.html">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" id="search-btn" type="submit">Search</button>
+                </form>
+            </div>
+    </nav>
+
+    <!-- Navbar ending -->
+
+
+    <!-- Form Starting  -->
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <form action="login.php" method="post">
+                    <div class="mb-3 m-5 w-50">
+                        <h5>Login/Signup to continue <br><br></h5>
+                        <label for="loginEmail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="username" id="loginEmail" aria-describedby="emailHelp">
+                    </div>
+        
+                    <div class="mb-3 m-5 w-50">
+                        <label for="loginPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" id="loginPassword">
+                    </div>
+        
+                    <div class="mb-5 m-5">
+                        <input type="submit" class="form-control" id="loginSubmit" value="Login">
+                        <input type="submit" class="form-control" id="loginSubmit" value="Signup">
+                    </div>
+                </form>
+              </div>
+              <div class="col">
+                <h1 class="mt-5 mb-4">!Welcome to CART.in</h1>
+                <img  src="Images/SaleImage.png" height="70%" width="110%" alt="">
+              </div>
+            </div>
+          </div>
+          <br>
+    <!-- Form Ending  -->
+
+
+    <!-- Footer starts -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col p-2">
+                    Categories
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Fashion</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Mobiles</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Electronics</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Home Decor</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="category.html">Books, Toys & More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    Help
+                    <div class="row">
+                        <div class="col">
+                            <a href="contact.html">Contact Us</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            +0141(2456357)
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            +91(9824563575)
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    Social
+                    <div class="row">
+                        <div class="col">
+                            <a href="">Facebook</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="">Instagram</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="">Twitter</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <a href="">YouTube</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
